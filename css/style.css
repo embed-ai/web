@@ -1,0 +1,54 @@
+@import url('reset.css');
+
+/* General */
+html, body {
+	background-color: #000;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-family: "Lucida Grande", Helvetica, Verdana, sans-serif;
+}
+
+#container {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	margin: -50px 0 0 0;
+	display: block;
+}
+
+#box {
+	width: 250px;
+	height: 100px;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	background: #16A085;
+	background: -webkit-linear-gradient(to left, #16A085 , #F4D03F);
+	background: linear-gradient(to left, #16A085 , #F4D03F);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+p#contact {
+	text-align: center;
+	margin-top: 20px;
+}
+
+a, a:visited {
+	color: #16A085;
+	font-size: 14px;
+	-webkit-transition: color 0.3s ease-in-out 0s;
+	transition: color 0.3s ease-in-out 0s;
+}
+
+a:hover, a:active {
+	color: #F4D03F;
+}
